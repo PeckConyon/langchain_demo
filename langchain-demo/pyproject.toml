@@ -1,0 +1,21 @@
+[project]
+name = "langchain-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Supun Nimantha", email = "hvnsupun@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "langchain>=1.4.8",
+    "langchain-openai>=1.7.3",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+langchain-demo = "langchain_demo:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
