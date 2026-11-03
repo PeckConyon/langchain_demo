@@ -4,7 +4,8 @@ def main() -> None:
     #from .prompt_templates import run
     #from .structured_output import run
     #from .pydantic_basics import run
-    from .stream import  run
+    #from .stream import run
+    from .tools_basic import run
 
     run()
     
